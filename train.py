@@ -31,4 +31,5 @@ print(predictions)
 
 #Utilizacion de numpy para calcular y obtener  la parte del test y el acurracy 
 acc = np.sum(predictions == y_test) / len(y_test)
+#Impresion del accuracy 
 print(acc)
