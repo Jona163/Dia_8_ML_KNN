@@ -6,3 +6,6 @@ from matplotlib.colors import ListedColormap
 from KNN import KNN
 
 cmap = ListedColormap(['#FF0000','#00FF00','#0000FF'])
+
+iris = datasets.load_iris()
+X, y = iris.data, iris.target
