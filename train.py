@@ -14,3 +14,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 plt.figure()
 plt.scatter(X[:
+plt.show()
+
+clf = KNN(k=5)
+clf.fit(X_train, y_train)
+predictions = clf.predict(X_test)
