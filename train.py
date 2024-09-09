@@ -29,5 +29,6 @@ predictions = clf.predict(X_test)
 #Se imprimen las predicciones del algortimo de KNN en consola
 print(predictions)
 
+#Utilizacion de numpy para calcular y obtener  la parte del test y el acurracy 
 acc = np.sum(predictions == y_test) / len(y_test)
 print(acc)
