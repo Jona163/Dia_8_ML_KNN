@@ -19,3 +19,5 @@ plt.show()
 clf = KNN(k=5)
 clf.fit(X_train, y_train)
 predictions = clf.predict(X_test)
+
+print(predictions)
